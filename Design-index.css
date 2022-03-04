@@ -541,13 +541,14 @@ body {
 }
 #titlu {
   justify-self: flex-start;
+  font-family: 'Shippori Antique B1', sans-serif;
   margin-left: 7%;
   font-weight: bold;
   font-size: 30px;
   background-color:#6F4C5B;
   cursor:pointer;
   color:#ffffff;
-	text-decoration:none;
+  text-decoration:none;
 }
 #motto {
   opacity: 0.7;
