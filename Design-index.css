@@ -546,7 +546,7 @@ body {
   font-size: 30px;
   background-color:#6F4C5B;
   cursor:pointer;
-  color:#000000;
+  color:#ffffff;
 	text-decoration:none;
 }
 #motto {
@@ -562,7 +562,7 @@ body {
   font-size: 20px;
   background-color:#6F4C5B;
   cursor:pointer;
-  color:#d8faf8;
+  color:#ffffff;
 	text-decoration:none;
 }
 #membri {
@@ -571,7 +571,7 @@ body {
   font-size: 20px;
   background-color:#6F4C5B;
   cursor:pointer;
-  color:#000000;
+  color:#ffffff;
 	text-decoration:none;
 }
 #despre {
@@ -580,7 +580,7 @@ body {
   font-size: 20px;
   background-color:#6F4C5B;
   cursor:pointer;
-  color:#000000;
+  color:#ffffff;
 	text-decoration:none;
 }
 #proiecte {
@@ -589,7 +589,7 @@ body {
   font-size: 20px;
   background-color:#6F4C5B;
   cursor:pointer;
-  color:#000000;
+  color:#ffffff;
 	text-decoration:none;
 }
 
@@ -610,7 +610,7 @@ body {
     height: 55px;
 }
 .custom-shape-divider-top-1638015561 .shape-fill {
-    fill: #6F4C5B;
+    fill: #0077b6;
 }
 
 /*ANNOUNCEMENTS TAB*/
