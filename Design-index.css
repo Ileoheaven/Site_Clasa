@@ -536,8 +536,8 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   width: 100;
-  background-color: #6F4C5B; /*67B4D8*/
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  background-color: #0077b6; /*67B4D8*/
+  font-family: 'Shippori Antique B1', sans-serif;
 }
 #titlu {
   justify-self: flex-start;
