@@ -419,7 +419,7 @@ body {
 .main-image {
   font-family: Comic Sans MS, Comic Sans, cursive;
   row-gap: 50px;
-  background-color: #e5c49954; /*CBF1F5*/
+  background-color: #E6E8E6; /*CBF1F5*/
   border-radius: 10px;
   margin-top: 40px;
   margin-left: 10px;
@@ -427,7 +427,7 @@ body {
 }
 
 #main-image-design {
-  background-color: #e3fdfd00;
+  background-color: #E6E8E6;
   border-radius: 10px;
   width: 97.5%;
   height: 400px;;
