@@ -161,7 +161,6 @@ body {
   margin-left: 1%;
   font-weight: bold;
   font-size: 30px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
@@ -346,7 +345,6 @@ body {
   margin-left: 7%;
   font-weight: bold;
   font-size: 30px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
@@ -362,7 +360,6 @@ body {
   margin-right: 2%;
   font-weight: 700;
   font-size: 20px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#d8faf8;
 	text-decoration:none;
@@ -371,7 +368,6 @@ body {
   margin-right: 2%;
   font-weight: 700;
   font-size: 20px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
@@ -380,7 +376,6 @@ body {
   margin-right: 2%;
   font-weight: 700;
   font-size: 20px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
@@ -389,7 +384,6 @@ body {
   margin-right: 10%;
   font-weight: 700;
   font-size: 20px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
@@ -515,6 +509,14 @@ body {
   transform: translateY(-0%);
 }
 
+/*Body*/
+#main_body {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background-image: linear-gradient(to bottom, #556462, #546363, #536263, #526164, #516064, #515f64, #4d5b6c, #52586c, #525b64, #54566b, #58546a, #5b5268);
+}
+
 /*NAV BAR*/
 
 .grid-container {
@@ -536,7 +538,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   width: 100;
-  background-color: #0077b6; /*67B4D8*/
+  background-color: #98c9b8; /*67B4D8*/
   font-family: 'Shippori Antique B1', sans-serif;
 }
 #titlu {
@@ -547,7 +549,6 @@ body {
   font-size: 30px;
   cursor:pointer;
   color:#ffffff;
-  background-color: #0077b6;
   text-decoration:none;
 }
 #motto {
@@ -559,7 +560,6 @@ body {
 }
 #acasa {
   margin-right: 2%;
-  background-color: #0077b6;
   font-weight: 700;
   font-size: 20px;
   cursor:pointer;
@@ -568,7 +568,6 @@ body {
 }
 #membri {
   margin-right: 2%;
-  background-color: #0077b6;
   font-weight: 700;
   font-size: 20px;
   cursor:pointer;
@@ -577,7 +576,6 @@ body {
 }
 #despre {
   margin-right: 2%;
-  background-color: #0077b6;
   font-weight: 700;
   font-size: 20px;
   cursor:pointer;
@@ -586,7 +584,6 @@ body {
 }
 #proiecte {
   margin-right: 10%;
-  background-color: #0077b6;
   font-weight: 700;
   font-size: 20px;
   cursor:pointer;
@@ -611,7 +608,7 @@ body {
     height: 55px;
 }
 .custom-shape-divider-top-1638015561 .shape-fill {
-    fill: #03045e;
+    fill: #98c9b8;
 }
 
 /*ANNOUNCEMENTS TAB*/
@@ -624,7 +621,7 @@ body {
   grid-template-rows: 0.1fr auto 0.1fr auto 0.1fr auto 0.1fr auto 0.1fr;
   grid-column: 1;
   grid-row: 3;
-  background-color: #e5c49954; /*CBF1F5*/
+  background-color: #98c9b8; /*CBF1F5*/
   border-radius: 10px;
   margin-top: 40px;
   margin-left: 10px;
@@ -632,7 +629,8 @@ body {
 }
 .category-title {
   font-family: Comic Sans MS, Comic Sans, cursive;
-  background-color: #7e5c6b; /*CBF1F5*/
+  background-color: #8d73af; /*CBF1F5*/
+  border: 5px solid #67557e;
   border-radius: 10px;
   margin-top: 20px;
   margin-left: 10px;
@@ -644,16 +642,38 @@ body {
 .announcement_tab1{
   border-radius: 10px;  
   text-align: center;
-  background-color: #7e5c6b; /*71C9CE*/
+  background-color: #856ea3; /*71C9CE*/
   transition-duration: 0.4s;
-  border: 2px solid #6F4C5B; /*5f95db*/
+  border: 5px solid #67557e; /*5f95db*/
 }
 .announcement_tab2{
   border-radius: 10px;
   text-align: center;
-  background-color: #634b55; /*3ccbd3*/
+  background-color: #776292; /*3ccbd3*/
   transition-duration: 0.4s;
-  border: 2px solid #6F4C5B; /*5f95db*/
+  border: 5px solid #685680; /*5f95db*/
+}
+
+/*IMAGE TAB*/
+.main-image {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  row-gap: 50px;
+  background-color: #98c9b8; /*CBF1F5*/
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#main-image-design {
+  background-color: #98c9b8;
+  border-radius: 10px;
+  width: 96%;
+  height: 400px;;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /*END DESIGN*/
@@ -674,7 +694,7 @@ body {
     height: 76px;
 }
 .custom-shape-divider-bottom-1638203260 .shape-fill {
-    fill: #0077b6;
+    fill: #6F4C5B;
 }
 }
 
@@ -719,7 +739,6 @@ body {
   margin-left: 7%;
   font-weight: bold;
   font-size: 30px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
@@ -735,7 +754,6 @@ body {
   margin-right: 2%;
   font-weight: 700;
   font-size: 20px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#d8faf8;
 	text-decoration:none;
@@ -744,7 +762,6 @@ body {
   margin-right: 2%;
   font-weight: 700;
   font-size: 20px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
@@ -753,7 +770,6 @@ body {
   margin-right: 2%;
   font-weight: 700;
   font-size: 20px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
@@ -762,7 +778,6 @@ body {
   margin-right: 10%;
   font-weight: 700;
   font-size: 20px;
-  background-color:#6F4C5B;
   cursor:pointer;
   color:#000000;
 	text-decoration:none;
